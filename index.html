@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mathew Moesker">
+    <meta name="description" content="html, css, web, seo, web development">
+    <title>BOM INTRO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css" media="all">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/cd92dcd941.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <div class="container gap-10">
+      <div class="center">
+        <div class="text">
+          <h1 id="clock">00:00</h1>
+          <h2 id="alarm-time"></h2>
+          <input type="number" id="alarm-hours" placeholder="HH" min="0" max="23" style="width: 50px; text-align: center;">
+          <input type="number" id="alarm-minutes" placeholder="MM" min="0" max="59" style="width: 50px; text-align: center;">
+          <button id="set-alarm">Set Alarm</button>
+          <h2 id="alarm-message"></h2>
+          <audio id="alarm-sound" src="./assets/audio/alarm-sound.mp3" preload="auto"></audio>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
